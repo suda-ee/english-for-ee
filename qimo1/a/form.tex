@@ -1,0 +1,593 @@
+\documentclass[a4paper,12pt]{exam}
+%\usepackage{times}
+\usepackage{soul,supertabular,shortlst}
+\usepackage[modulo]{lineno}
+\usepackage{mathrsfs,pifont}
+\usepackage{stmaryrd}
+\usepackage{amsmath}
+\usepackage[cdot,thinqspace]{SIunits}
+\usepackage[a4paper]{geometry}
+\usepackage{lastpage}
+\Fullpages
+\NumberOfVersions{1}
+\usepackage{CJK}
+\ifx\pdfoutput\undefined
+\usepackage[dvipdfm]{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{indentfirst}
+\usepackage{float}
+%\usepackage{floatflt}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+
+\def\Varangle#1{\kern.75pt\vtop{\hbox{\kern-.75pt$/{#1}$}\kern-.35pt\hrule}}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\CJKtilde
+%\CJKcaption{GB}
+\DeclareGraphicsExtensions{.pdf}
+%\renewcommand\figurename{图}
+\nolinenumbers
+\newcommand\AnswerLeading{Answer}
+\SectionPrefix{Section \Roman{sectionindex}. \space}
+% \NoKey
+\NoRearrange
+\ContinuousNumbering
+\ShortKey
+\SectionFont{\large\bf}
+\examname{专业英语}
+\DefineAnswerWrapper{\begin{description}\item [\AnswerLeading:]}{\end{description}}
+\def\namedata{学号：\underline{\hspace{51pt}}\hspace{17pt}姓名：\underline{\hspace{51pt}}\hspace{17pt}成绩：\underline{\hspace{51pt}}}
+\class{院系：\underline{\hspace{51pt}}\hspace{17pt}年级：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}}
+\begin{examtop}
+\begin{center}
+\begin{tabular}{r}
+{\Large \bf苏州大学\underline{\examtype}课程试卷
+}\hspace{17pt}(\textsf{\Alph{version}})~卷\hspace{17pt}共~8~页\medskip\\考试形式\underline{闭}卷\hspace{17pt}2003~年~11~月
+\end{tabular}
+\\\bigskip
+\classdata\\ \namedata
+\end{center}
+\bigskip
+\end{examtop}
+\begin{keytop}
+\begin{center}
+{\bf\Large 苏州大学\underline{\examtype}课程}\hspace{17pt}(\textsf{\Alph{version}})~卷参考答案\hspace{17pt}共~\pageref{LastPage}~页\bigskip\\
+院系：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}
+\end{center}
+\bigskip
+\end{keytop}
+
+\begin{fillin}[title={Word Translation.(15 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Translate the following words into Chinese if it's in English, and
+into English if in Chinese. If the word is an initial or abbreviation,
+its full form is needed.}
+    \begin{question}
+	attenuate \blank{衰减}
+    \end{question}
+    \begin{question}
+	capacitance \blank{电容量}
+    \end{question}
+    \begin{question}
+	quantization \blank{量化}
+    \end{question}
+    \begin{question}
+	duplex \blank{双工}
+    \end{question}
+    \begin{question}
+	UHF \blank{Ultra-Heigh Frequency}
+    \end{question}
+    \begin{question}
+	Reciprocity Theorem \blank{互易定理}
+    \end{question}
+    \begin{question}
+	operational amplifier \blank{运算放大器}
+    \end{question}
+    \begin{question}
+	线性 \blank{linearity}
+    \end{question}
+    \begin{question}
+	集电极 \blank{collector}
+    \end{question}
+    \begin{question}
+	振荡器 \blank{oscillator}
+    \end{question}
+    \begin{question}
+	转发器 \blank{repeater}
+    \end{question}
+    \begin{question}
+	失真 \blank{distortion}
+    \end{question}
+    \begin{question}
+	语音合成 \blank{speech synthesis}
+    \end{question}
+    \begin{question}
+	基带 \blank{baseband}
+    \end{question}
+    \begin{question}
+	URL \blank{Uniform Resource Locator}
+    \end{question}
+\end{fillin}
+
+\begin{fillin}[title={Symbols and Formulas.(12 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Give the How-to-Read of the following
+symbols and formulas.}
+    \begin{question}
+	$\eta$ \blank{eta}
+    \end{question}
+    \begin{question}
+	$\tau$ \blank{tau}
+    \end{question}
+    \begin{question}
+	$\psi$ \blank{psi}
+    \end{question}
+    \begin{question}
+	$2{2\over 3}$ \blank{two and two-third}
+    \end{question}
+    \begin{question}
+	$b \leq c$ \blank{b is less than or equal to c}
+    \end{question}
+    \begin{question}
+	$\sqrt[4]{b^3}$ \blank{the fourth square root of b cube}
+    \end{question}
+\end{fillin}
+
+\begin{shortanswer}[title={English-Chinese Translation. (20 pts.)}]
+\noindent{\bf Directions: }{\em Read the following paragraph and translate the underlined sentences
+into Chinese.}\bigskip
+
+\begin{linenumbers*}
+The major drawback of the digital representation of information lies in
+coding {\em distortion}. \ul{$^{\ref{e2c1}}$The process of first sampling and then
+quantizing and coding the sampled values introduces distortions.}
+\ul{$^{\ref{e2c2}}$As a
+result, the signal generated after digital-to-analog conversion and
+presented to the end-user has little chance of being completely
+identical to the original signal.} Increasing the sampling rate and
+multiplying the number of bits used to code samples reduces the
+distortion. The result is an increased number of bits per time or space
+unit, called {\em bit rate}, necessary to represent the information.
+\ul{$^{\ref{e2c3}}$There are clearly technological limits to the explosion of bit rates:
+storage capacity is not infinite, and transmission systems also have
+limited bandwidths.} \ul{$^{\ref{e2c4}}$One of the key issues then is to choose an
+appropriate balance between the accuracy of the digitization, which
+determines the bit rate, and the perceived distortions by users.} Do not
+forget that it is how distortions are perceived by humans which matters,
+not what they are physically.
+\end{linenumbers*}
+\begin{flushright}
+--From {\em Digital Representation of Information}
+\end{flushright}
+    \begin{question}\label{e2c1}
+    \ding{45}\examvspace*{1cm}
+	\begin{answer}
+	{\em (参考译文)}先采样再对采样值量化、编码的过程会带来失真。
+	\end{answer}
+    \end{question}
+    \begin{question}\label{e2c2}
+    \ding{45}\examvspace*{1cm}
+	\begin{answer}
+	{\em (参考译文)}因此在数模转换之后产生并呈现在最终用户面前的信号
+	难得与原始信号完全一致。
+	\end{answer}
+    \end{question}
+    \begin{question}\label{e2c3}
+    \ding{45}\examvspace*{1cm}
+	\begin{answer}
+	{\em (参考译文)}对比特率的爆炸增长存在明显的技术限制：存储系统不
+	是无限大的，而且传输系统也具有有限的带宽。
+	\end{answer}
+    \end{question}
+    \begin{question}\label{e2c4}
+    \ding{45}\examvspace*{1cm}
+	\begin{answer}
+	{\em (参考译文)}那么关键之一就是要在决定比特率的数字化精度和用户所
+	能感知的失真之间做一个恰当的平衡。
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{shortanswer}[title={Chinese-English Translation. (14 pts.)}]
+\noindent{\bf Directions: }{\em Read the following paragraphs and
+translate them into English.}\bigskip
+\begin{linenumbers*}
+\noindent{\bf 例 8-14} 给定图~8-30~中的电路，使用节点分析法求解电压
+~$V_{ab}$。
+
+\noindent{\bf 解}
+\begin{minipage}[t]{16cm}
+\noindent 步骤~1：选一个方便的参考节点。
+
+\noindent 步骤~2：将电压源转换为等效的电流源。等效电路图如图~8-31~所示。
+
+\noindent 步骤~3~和~4：任意地标识各节点电压和支路电流。根据假定的电流方
+向标定所有电阻两端的电压极性。
+
+\noindent 步骤~5：现在~$V_1$~和~$V_2$~两节点应用基尔霍夫电流定律：(略)。
+
+\noindent 步骤~6：应用电阻两端的电压将电流重写如下：(略)，节点方程变为
+~(略)，将电压表达式代入到原先的节点方程中，得到如下联立线性方程组：(略)
+，进一步简化为~(略)。
+
+\noindent 步骤~7：使用行列式求解节点电压得~(略)。
+\end{minipage}
+\end{linenumbers*}
+\begin{flushright}
+--From {\em Chapter 8, Circuit Analysis: Theory \& Practice} by Robbins, Allan
+\end{flushright}
+{\bf Tips:}
+    \begin{tabular}[t]{ll}
+    基尔霍夫 & Kirchhoff \\
+    联立的 & simultaneous \\
+    行列式 & determinant 
+    \end{tabular}
+    \begin{question}
+    \ding{45}
+    \examvspace*{20cm}
+	\begin{answer}
+	{\bf EXAMPLE 8-14} Given the circuit of Figure 8-30, use nodal
+	analysis to solve for the voltage $V_{ab}$.
+
+	{\bf Solution}
+
+	{\bf Step 1:} Select a convenient reference node.
+
+	{\bf Step 2:} Convert the voltage sources into equivalent
+	current sources. The equivalent circuit is shown in Figure 8-31.
+
+	{\bf Steps 3 and 4:} Arbitrarily assign node voltages and branch
+	currents. Indicate the voltage polarities across all resistors
+	according to the assumed current directions.
+
+	{\bf Step 5:} We now apply Kirchhoff s current law at the nodes
+	labelled as $V_1$ and $V_2$:  ...
+
+	{\bf Step 6:} The currents are rewritten in terms of the
+	voltages across the resistors as follows: ...\\
+	The nodal equations become\\
+	Substituting the voltage expressions into the original nodal
+	equations, we have the following simultaneous linear
+	equations:\\
+	These may be further simplified as
+	
+	{\bf Step 7:} Use determinants to solve for the nodal voltages
+	as ...
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{fillin}[title={Filling in the blanks.(13 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Read the following passage carefully and
+then fill each blank with one suitable word or expression selected from
+the list.}\\
+\begin{tabular}{llll}
+compile & existence & electric power & improvements \\
+multiply & calculator & add & electric calculator \\
+computing device & simplified & form & types \\
+mathematicians & & & \\
+\end{tabular}
+
+\begin{linenumbers*}
+There are two basic \underline{\ref{fil1}\hspace{12pt}} of computing
+devices. A simple example of the first type is the slide rule, which the
+\underline{\ref{fil2}\hspace{12pt}} and scientists have been using for
+generations.  This kind of computer changes information from one
+\underline{\ref{fil3}\hspace{12pt}} to another, so that the computation
+is \underline{\ref{fil4}\hspace{12pt}}. The second type of
+\underline{\ref{fil5}\hspace{12pt}} changes information into a number of
+simplest codes. The simplest example of this type is abacus, which has
+been used in many parts of the world since ancient time. For centries
+very little progress was made in improving this type of
+\underline{\ref{fil6}\hspace{12pt}}. But about 1642, Pascal developed a
+machine that could \underline{\ref{fil7}\hspace{12pt}} and subtract.
+Thirty years later, Von Leibnitz developed a machine that could
+\underline{\ref{fil8}\hspace{12pt}} and divide as well.  During the next
+two hundred years \underline{\ref{fil9}\hspace{12pt}} were very slow,
+but in 1887 \underline{\ref{fil10}\hspace{12pt}} was added to this type
+of machine and the first \underline{\ref{fil11}\hspace{12pt}} came into
+\underline{\ref{fil12}\hspace{12pt}}. It could record,
+\underline{\ref{fil13}\hspace{12pt}} and tabulate information.\bigskip\\
+\end{linenumbers*}
+{\bf Tips: }\begin{shortitemize}
+    \item compile {\em n.} 编译
+    \item the slide rule {\em n.} 计算尺
+    \end{shortitemize}
+    \begin{question}\label{fil1}
+	\blank{types}
+    \end{question}
+    \begin{question}\label{fil2}
+	\blank{mathematicians}
+    \end{question}
+    \begin{question}\label{fil3}
+	\blank{form}
+    \end{question}
+    \begin{question}\label{fil4}
+	\blank{simplified}
+    \end{question}
+    \begin{question}\label{fil5}
+	\blank{computing device}
+    \end{question}
+    \begin{question}\label{fil6}
+	\blank{calculator}
+    \end{question}
+    \begin{question}\label{fil7}
+	\blank{add}
+    \end{question}
+    \begin{question}\label{fil8}
+	\blank{multiply}
+    \end{question}
+    \begin{question}\label{fil9}
+	\blank{improvements}
+    \end{question}
+    \begin{question}\label{fil10}
+	\blank{electric power}
+    \end{question}
+    \begin{question}\label{fil11}
+	\blank{electric calculator}
+    \end{question}
+    \begin{question}\label{fil12}
+	\blank{existence}
+    \end{question}
+    \begin{question}\label{fil13}
+	\blank{compile}
+    \end{question}
+\end{fillin}
+
+\begin{fillin}[title={Reading Comprehension.(14 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Read the following passage and fill in
+the blanks of question \ref{lgk1} to \ref{lgk14} with the information in
+the text.}\\
+\begin{linenumbers*}
+\standardtilde
+\centerline{\Large\bf Logic Gates}
+
+\noindent{\large\bf AND Gates}
+
+The AND gate has one output and two or more inputs. The output will
+equal 0 for all combinations of input values except when all inputs
+equal 1. When each input is 1, the output will also equl 1. And the AND
+gate will function as an \ul{OR gate} for \ul{negative logic}, but
+again, the gate is named for its positive logic function.
+\bigskip
+
+\noindent{\large\bf OR Gates}
+
+The OR gate has one output and two or more inputs. If all inputs are
+caused to equal 0, the output will also be equal to 0. The presence of a
+1 bit at one or more inputs leads to an output of 1. The name OR gate
+comes from the fact that the output will equal 1 if one or the other
+input or both equal 1. Fig.~3-1 describs this \ul{operation} in terms of
+a truth table. Assuming this truth table results from a positive logic
+definition, the function table shown is \ul{applicable}. The standard
+symblos for a 2-input OR gate and an 8-input OR gate are also shown.
+\begin{figure}
+    \centering
+    \includegraphics{f3-1.pdf}
+\end{figure}
+
+If we choose to use negative logic with the OR gate of Fig.~3-1, it no
+longer performs the OR function. If a single gate can correspond to an
+OR gate or an AND gate, depending on logic definition, we must take care
+to avoid confusion when specifying this gate. This problem is handled
+simply by naming the gate according to its positive logic function. All
+manufactures refer to a gate having the function table of Fig.~3-1 as an
+OR gate. Although this circuit can be used as an AND gate with negative
+logic, the manufactures' \ul{handbooks} will always list it as an OR
+gate.
+\bigskip
+
+\noindent{\large\bf The Inverter}
+
+The inverter performs the NOT or INVERT function and has one output and
+one input. The output \ul{level} is always opposite to the input level.
+Fig.~3-2 shows the function table, truth table, and symbol for the
+inverter.
+
+The triangle of the inverter symbol represents \ul{amplification}
+(generally current amplification for \ul{logic circuits}), and the small
+circle \ul{denotes} an iversion of signals. The inverter truth table for
+negative logic is the same as that for positive logic.
+\begin{figure}
+    \centering
+    \includegraphics{f3-2.pdf}
+\end{figure}
+
+At this point, we are not yet aware of the kinds of logic functions that
+must be realized with the gates. Nevertheless, we shall now state a fact
+that will later become more meaningful, namely, that the AND gate and
+inverter or the OR gate and inverter each form a functionally complete
+\ul{set}. This means that any logic function realized by logic gates can
+be realized with the AND and NOT functions or with the OR and NOT
+functions only.\bigskip
+
+\noindent{\large\bf NOR Gates}
+
+From a theoretical \ul{standpoint}, the OR and AND gates and the
+inverter are sufficient to do all the necessary logic design. From a
+more practical standpoint, the NOR and NAND gates are useful and are
+actually more \ul{versatile} than are the other gates. Either of these
+gates can be shown to be functionally complete.
+
+The NOR gate is simply an OR gate followed by an inverter. The small
+circle following the OR gate again represents an inversion and changes
+the OR gate to the NOR gate symbol.\bigskip
+
+\noindent{\large\bf NAND Gates}
+
+The NAND gate is an AND gate followed by an inverter.\bigskip
+
+\noindent{\bf Using NAND and NOR Gates for Inverters}
+
+A NAND or NOR gate can be used as an inverter, as shown in Fig.~3-3.
+Although all the configurations shown in Fig.~3-3 result in an output
+that is always at the opposite level to that of the input, the preferred
+configurations in some situations are those of the rightmost column. The
+\ul{driving circuit} must supply current to each input it drives; thus
+in the left column, current must be supplied to two inputs. In the right
+column, current is supplied or absorbed by the power supply or by ground
+for one input. The driving circuit now drives only a single input. In
+circuits in which an input drives only one or two gates, either of the
+methods can be used. \bigskip
+\begin{figure}
+    \centering
+    \includegraphics{f3-3.pdf}
+\end{figure}
+
+\noindent{\large\bf Practical Value of NAND and NOR Gates}
+
+If a NAND gate is followed by an inverter, it becomes an AND gate.
+Because both inverters and AND gates can be constructed from NAND gates,
+the NAND gate is seen to be a functionally complete set in itself. So
+also is the NOR gate, from which inverters and OR gates can be
+constructed.
+
+From a practical standpoint, we note that the \ul{SSI} \ul{chips}
+containing gates may contain up to four 2-input gates per chip. If we
+are building a logic system using NAND or NOR chips, there will often be
+unused gates on some of the chips. If an invert function or an AND or OR
+function is required, we can often use these unused gates to produce the
+desired function without adding more chips to the system. If AND gates
+are being used, an invert function requires that an inverter chip to be
+added, regardless of the presence of unused AND gates in the system. The
+\ul{versatility} of the NOR and NAND gates can often lead to a finished
+logic system requiring fewer chips than other \ul{implementations}.
+\end{linenumbers*}
+\begin{flushright}
+(939 words)\\
+From {\em Microprocessor-based System Design} by D.~J.~Comer
+\end{flushright}
+
+{\bf Tips:}\CJKtilde
+
+    \begin{center}
+    \tablefirsthead{}
+    \tablehead{}
+    \tabletail{}
+    \tablelasttail{}
+    \begin{supertabular}{p{6cm}lp{5cm}}
+    AND gate & & 与门 \\
+    OR gate & & 或门 \\
+    negative logic & & 负逻辑 \\
+    operation & {\em n.} & 运算 \\
+    applicable & {\em adj.} & 合适的 \\
+    handbood & {\em n.} & 手册 \\
+    inverter & {\em n.} & 反相器 \\
+    level & {\em n.} & 电平 \\
+    amplification & {\em n.} & 放大 \\
+    logic circuit & & 逻辑电路 \\
+    denote & {\em v.} & 表示 \\
+    set & {\em n.} & (体)系 \\
+    NOR gate & & 或非门 \\
+    standpoint & {\em n.} & 立场，观点 \\
+    versatile & {\em adj.} & 多用途的，万能的 \\
+    NAND gate & & 与非门 \\
+    driving circuit & & 驱动电路 \\
+    SSI (Small Scale Integration) & & 小规模集成(电路) \\
+    chip & {\em n.} & 芯片 \\
+    versatility & {\em n.} & 通用性，万能性 \\
+    implementation &{\em n.} & 实现
+    \end{supertabular}
+    \end{center}
+
+\noindent{\bf Fill in the blanks with the information in the text.}
+
+\underline{\ref{lgk1}\hspace{12pt}} has one output and two or more
+inputs. The output will equal 0 for all combinations of input values
+except \underline{\ref{lgk2}\hspace{12pt}}.  When each input is 1,
+\underline{\ref{lgk3}\hspace{12pt}} will also equal 1. The
+\underline{\ref{lgk4}\hspace{12pt}} has one output and two or more
+inputs too. If all inputs are caused to equal 0, the output
+\underline{\ref{lgk5}\hspace{12pt}}. The presence of a 1 bit at one or
+more inputs leads to \underline{\ref{lgk6}\hspace{12pt}}. The name OR
+gate comes from the fact that the output will equal 1 if
+\underline{\ref{lgk7}\hspace{12pt}} equal 1.  And the inverter performs
+the \underline{\ref{lgk8}\hspace{12pt}} function and has one output and
+one input. The NOR gate is simply \underline{\ref{lgk9}\hspace{12pt}}.
+The NAND gate is an AND gate followed by
+\underline{\ref{lgk10}\hspace{12pt}}.
+
+If a NAND gate is followed by \underline{\ref{lgk11}\hspace{12pt}}, it
+becomes an AND gate.  Because both \underline{\ref{lgk12}\hspace{12pt}}
+can be constructed from NAND gates, the NAND gate is seen to be a
+functionally complete set in itself.  So also is the NOR gate, from
+which \underline{\ref{lgk13}\hspace{12pt}} can be constructed.  From a
+practical standpoint, we note that the SSI chips containing gates may
+contain \underline{\ref{lgk14}\hspace{12pt}}.
+    \begin{question}\label{lgk1}
+	\blank{The AND gate}
+    \end{question}
+    \begin{question}\label{lgk2}
+	\blank{when all inputs equal 1}
+    \end{question}
+    \begin{question}\label{lgk3}
+	\blank{the output}
+    \end{question}
+    \begin{question}\label{lgk4}
+	\blank{OR gate}
+    \end{question}
+    \begin{question}\label{lgk5}
+	\blank{will also be equal to 0}
+    \end{question}
+    \begin{question}\label{lgk6}
+	\blank{an output of 1}
+    \end{question}
+    \begin{question}\label{lgk7}
+	\blank{one or the other input or both}
+    \end{question}
+    \begin{question}\label{lgk8}
+	\blank{NOT or INVERT}
+    \end{question}
+    \begin{question}\label{lgk9}
+	\blank{an OR gate followed by an inverter}
+    \end{question}
+    \begin{question}\label{lgk10}
+	\blank{an inverter}
+    \end{question}
+    \begin{question}\label{lgk11}
+	\blank{an inverter}
+    \end{question}
+    \begin{question}\label{lgk12}
+	\blank{inverters and AND gates}
+    \end{question}
+    \begin{question}\label{lgk13}
+	\blank{inverters and OR gates}
+    \end{question}
+    \begin{question}\label{lgk14}
+	\blank{up to four 2-input gates per chip}
+    \end{question}
+\end{fillin}
+
+\begin{shortanswer}[title={\bf Writting. (12 pts.)}]
+\noindent{\bf Directions: }{\em Write an abstract for the passage ``Logic Gates''
+of last section. The abstract should be limited to 50-200 words and
+should contain the most critical information of the passage.}\bigskip
+    \begin{question}
+    \ding{45}
+    \examvspace*{6cm}
+	\begin{answer}
+	(评分标准)语言部分参考四六级作文评分标准。Abstract 简要要求如下
+	：\\
+	The abstract should be limited to 50-200 words and should
+	concisely state what was done, how it was done, principal
+	results, and their significance. And should contain the most
+	critical information of the paper.\\
+	其它各项要求参考一般的摘要写作要求，规范与语言要求并重。
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+\end{document}
+\end{CJK*}
