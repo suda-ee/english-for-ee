@@ -1,0 +1,663 @@
+\documentclass[a4paper,12pt]{exam}
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{soul,supertabular,shortlst}
+\usepackage[modulo]{lineno}
+\usepackage{mathrsfs,pifont}
+\usepackage{stmaryrd}
+\usepackage{amsmath}
+\usepackage[cdot,thinqspace]{SIunits}
+\usepackage[a4paper]{geometry}
+\usepackage{lastpage}
+\Fullpages
+\NumberOfVersions{1}
+\usepackage{CJK}
+\ifx\pdfoutput\undefined
+\usepackage[dvipdfm]{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{indentfirst}
+\usepackage{float}
+%\usepackage{floatflt}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+
+\def\Varangle#1{\kern.75pt\vtop{\hbox{\kern-.75pt$/{#1}$}\kern-.35pt\hrule}}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\CJKtilde
+%\CJKcaption{GB}
+\DeclareGraphicsExtensions{.pdf}
+%\renewcommand\figurename{图}
+\renewcommand\linenumberfont{\normalfont\scriptsize\sffamily}
+\nolinenumbers
+\newcommand\AnswerLeading{Answer}
+\SectionPrefix{Section \Roman{sectionindex}. \space}
+% \NoKey
+\NoRearrange
+\ConstantBlanks{3cm}
+\ContinuousNumbering
+\ShortKey
+\SectionFont{\large\bf}
+\examname{专业英语}
+\DefineAnswerWrapper{\begin{description}\item [\AnswerLeading:]}{\end{description}}
+\def\namedata{学号：\underline{\hspace{51pt}}\hspace{17pt}姓名：\underline{\hspace{51pt}}\hspace{17pt}成绩：\underline{\hspace{51pt}}}
+\class{院系：\underline{\hspace{51pt}}\hspace{17pt}年级：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}}
+\begin{examtop}
+\setcounter{version}{2}
+\begin{center}
+\begin{tabular}{r}
+{\Large \bf苏州大学\underline{\examtype}课程试卷
+}\hspace{17pt}(\textsf{\Alph{version}})~卷\hspace{17pt}共~8~页\medskip\\考试形式\underline{闭}卷\hspace{17pt}\number\year~年~\number\month~月
+\end{tabular}
+\\\bigskip
+\classdata\\ \namedata
+\end{center}
+\bigskip
+\end{examtop}
+\begin{keytop}
+\begin{center}
+{\bf\Large 苏州大学\underline{\examtype}课程}\hspace{17pt}(\textsf{\Alph{version}})~卷参考答案\hspace{17pt}共~\pageref{LastPage}~页\bigskip\\
+院系：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}
+\end{center}
+\bigskip
+\end{keytop}
+
+\begin{shortanswer}[title={English-Chinese Translation. (30 pts.)}]
+\noindent{\bf Directions: }{\em Read the following paragraphs and
+translate them into Chinese.}\bigskip
+
+\begin{linenumbers*}
+Shannon's discovery was truly a revolution in communication history
+(J.~L.~Massey has likened it to the Copernican revolution), which
+overturned the former communication theory of how to send messages
+reliably, that is, send them several times, perhaps many times, and take
+some sort of majority vote. Of course, the throughput, or channel
+utilizaiton, decreases with such increasing repettions. Shannon showed
+it was not necessary to reduce the throughput to near zero in order to
+get reliable transmission, but only less than the special number C
+already mentioned. Naturally, this better performance should not come
+without cost; we are faced with communicating using long blocks, and
+thus with presumably long delay (measured in signal intervals), and
+perhaps to using rather complicated schemes for encoding and decoding.
+
+Around 1950, Golay and Hamming proposed the first nontrivial
+errorcorrecting codes, which utilized a number of redundant bits or
+parity check bits, along with the information bits, to achieve better
+performance than an uncoded system would achieve on the same channel.
+This, coupled with the existence of stronger codes shown to exist by
+Shannon, precipitated a wealth of subsequent work, and new
+modulation/coding techiques are still an important research topic.
+\end{linenumbers*}
+
+\begin{flushright}
+--From {\em History of Digital Communication}
+\end{flushright}
+    \begin{question}
+    \ding{45}\examvspace*{3cm}\examvspace*{5cm}\newpage\examvspace*{2cm}
+	\begin{answer}
+	{\em (参考译文，共五个长句，每句6分)}\\
+	香农的发现在通信历史上是一场真正的革命 (J.~L.~Massey 曾将之比做
+	哥白尼式的革命)，它推翻了以前的关于如何可靠的发送消息的通信理论
+	，既，(为了可靠发送消息)要多发送几次或者许多次，并进行某种多数表
+	决。当然，吞吐量或者信道利用率就会因这种重复的增加而下降。香农指
+	出为了得到可靠的传输，没有必要将吞吐量减小到接近零的程度，而只要
+	比前面所提到的那个特定数值~$C$ 稍小即可。当然，(这种)更好的性能
+	并不是没有代价的；我们要面对的是使用长的(数据)块来通信，从而可能
+	会有长时间的延迟(以信号间隔来度量)，或许也会用到相当复杂的编、解码
+	方法。
+
+	在~1950 年左右，格雷和汉明提出了第一个重要的纠错码，除了信息位以
+	外，该码使用了若干个冗余位或奇偶校验位，它与同一信道上的未编码的
+	系统相比有更好的表现。这一点，再加上香农曾指出一定存在更强的编码
+	，促成了大量的后续工作，新的调制/编码技术仍然是一个重要的研究课
+	题。
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{shortanswer}[title={Chinese-English Translation. (20 pts.)}]
+\noindent{\bf Directions: }{\em translate the following sentences into
+Chinese.}\bigskip
+    \begin{question}
+    实现数字滤波器最直接的方法就是将输入信号与数字滤波器的冲击响应卷积。
+    \\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+The most straightforward way to implement a digital filter is by convolving the input signal with the digital filter's impulse response.
+	\end{answer}
+    \end{question}
+    \begin{question}
+    为了能成功通信，整个系统中的每个实体都必须有一个唯一的地址。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+	For successful communication, every entity in the overall system
+	must have a unique address.
+	\end{answer}
+    \end{question}
+    \begin{question}
+    然而，通过以某个标准(值)为参考基准，工程师们也使用分贝(这个单位)来确
+    定一个信号的幅度(或功率)。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+However, engineers also use decibels to specify the amplitude (or power) of a single signal, by referencing it to some standard.
+	\end{answer}
+    \end{question}
+    \begin{question}
+    通过测量这种周期运动的频率、相位和幅度通常可以获得有关产生(这种周期
+    )运动的系统的信息。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+By measuring the frequency, phase, and amplitude of this periodic motion, information can often be obtained about the system producing the motion.
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{fillin}[title={Cloze.(15 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Read the following passage carefully and
+then fill each blank with one suitable word or expression selected from
+the list.}\\
+\begin{tabular}{llll}
+energy & oscillator & theory & coil \\
+frequency & propagate & electromagnetic & gap \\
+oscillation & light & spark & electromagnetic field \\
+free space (自由空间) & & & \\
+\end{tabular}
+
+\begin{linenumbers*}
+
+In 1864, James Maxwell (麦克斯韦，1831-1879), a Scottish physicist,
+produced his theory of the \underline{\ref{fil1}\hspace{12pt}} which
+predicted that \underline{\ref{fil2}\hspace{12pt}} waves can
+\underline{\ref{fil3}\hspace{12pt}} in
+\underline{\ref{fil4}\hspace{12pt}} at a velocity (速度) equal to that
+of \underline{\ref{fil5}\hspace{12pt}} . Experimental confirmation of
+this \underline{\ref{fil6}\hspace{12pt}} had to wait until 1887 when
+Heinrich Hertz (赫兹，1857-1894) constructed the first high-frequency
+\underline{\ref{fil7}\hspace{12pt}}. When a voltage was induced in an
+induction coil connected across a spark gap, a discharge would occur
+across the \underline{\ref{fil8}\hspace{12pt}} setting up a damped
+sinusoidal (正弦的) high-frequency \underline{\ref{fil9}\hspace{12pt}}.
+The \underline{\ref{fil10}\hspace{12pt}} of the oscillation could be
+changed by varying the capacitance of the gap by connecting metal plates
+to it. The detector that he used consisted of a second coil connected to
+a much shorter \underline{\ref{fil11}\hspace{12pt}} gap. The observation
+of sparks across the detector gap when the induction coil was excited
+showed that the electromagnetic \underline{\ref{fil12}\hspace{12pt}} from
+the first coil was reaching the second
+\underline{\ref{fil13}\hspace{12pt}} through space.
+
+\end{linenumbers*}
+
+\begin{flushright}
+From Chapter 1 of {\em Telecommunication Circuit Design (Second
+Edition)}\\
+by Patrick D. van der Puije
+\end{flushright}
+    \begin{question}\label{fil1}
+	\blank{electromagnetic field}
+    \end{question}
+    \begin{question}\label{fil2}
+	\blank{electromagnetic}
+    \end{question}
+    \begin{question}\label{fil3}
+	\blank{propagate}
+    \end{question}
+    \begin{question}\label{fil4}
+	\blank{free space}
+    \end{question}
+    \begin{question}\label{fil5}
+	\blank{light}
+    \end{question}
+    \begin{question}\label{fil6}
+	\blank{theory}
+    \end{question}
+    \begin{question}\label{fil7}
+	\blank{oscillator}
+    \end{question}
+    \begin{question}\label{fil8}
+	\blank{gap}
+    \end{question}
+    \begin{question}\label{fil9}
+	\blank{oscillation}
+    \end{question}
+    \begin{question}\label{fil10}
+	\blank{frequency}
+    \end{question}
+    \begin{question}\label{fil11}
+	\blank{spark}
+    \end{question}
+    \begin{question}\label{fil12}
+	\blank{energy}
+    \end{question}
+    \begin{question}\label{fil13}
+	\blank{coil}
+    \end{question}
+\end{fillin}
+
+\begin{fillin}[title={Reading Comprehension.(20 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Read the following passage and fill in
+the blanks of question \ref{lgk1} to \ref{lgk19} with the information in
+the text.}\bigskip
+
+\begin{linenumbers*}
+
+\standardtilde
+\centerline{\Large\bf What Is a Computer?}\bigskip
+
+The basic job of computers is the \ul{processing} of information. For
+this reason, computers can be defined as very-high-speed electronic
+device which accept information in the form of instructions called a
+program and characters called data, perform mathematical and/or logical
+opreations on the information, and then supply results of these
+operations. The program, or part of it, which tells the computers what
+to do and the data, which provide the information needed to solve the
+problem, are kept inside the computer in a place called \ul{memory}.
+
+Computers are thought to have many remarkable powers. However, most
+computers, whether large or small have three basic capabilities. First,
+computers have circuits for performing arithmetic operations, such as:
+addition, subtraction, multiplication, division and \ul{exponentiation}.
+Second, computers have a means of communicating with the user. After
+all, if we couldn't feed information in and get results back, these
+machines wouldn't be of much use. However, certain computers (commonly
+\ul{minicomputers} and \ul{microcomputers}) are used to control directly
+things such as robots, aircraft navigation systems, medical instruments,
+etc.
+
+Some of the most common methods of inputting information are to use
+magnetic tape, disks, and \ul{terminals}. The computer's input device
+(which might be a keyboard, a \ul{tape drive} or disk drive, depending
+on the medium used in inputting information) reads the information into
+the computer. For outputting information, two common devices used are a
+printer which prints the new information on paper, or a \ul{CRT} display
+screen which shows the results on a TV-like screen.
+
+Third, computers have circuits which can make decisions. The kinds of
+decisions which computer circuits can make are not of the type: ``Who
+would win a war between two countries?'' or ``Who is the richest person
+in the world?'' Unfortunately, the computer can only decide three
+things, namely: Is one number less than another? Are two numbers equal?
+and, Is one number greater than another?
+
+A computer can solve a series of problems and make hundreds, even
+thousands, of logical decisions without becoming tired or bored. It can
+find the solution to a problem in a fraction of the time it takes a
+human being to do the job. A computer can replace people in dull,
+routine tasks, but it has no originality; it works according to the
+instructions given to it and cannot exercise any value judgements. There
+are times when a computer seems to operate like a mechanical ``brain'',
+but its achievements are limited by the minds of human beings. A
+computer cannot do anything unless a person tells it what to do and
+gives it the appropriate information; but because electric pulses can
+move at the speed of light, a computer can carry out vast numbers of
+arithmetic-logical operations almost instantaneously. A person can do
+everything a computer can do, but in many cases that person would be
+dead long before the job was finished.
+\bigskip
+
+\noindent{\large\bf Types of Computer}
+\bigskip
+
+\noindent{\bf Mainframes}
+
+Computers come in a wide variety of sizes and capabilities. The largest
+and most powerful are often called {\em mainframes}. Mainframe computers
+may fill an entire room. They are designed to work at very high speeds
+with large data words. typically 64 \ul{bits} or greater, and they have
+massive amounts of memory. Computers of this type are used for military
+defense control, business data processing (an insurance company, for
+example). and for creating computer graphics displays for science
+fiction movies. Examples of this type of computer are the IBM 4381, the
+Honeywell DPS 8, and the CRAY X-MP/48.
+\bigskip
+
+\noindent{\bf Minicomputers}
+
+Scaled-down versions of mainframe computers are often called {\em
+minicomputers}. The main unit of a minicomputer usually fits in a single
+\ul{rack} or box. A minicomputer runs more slowly, works directly with
+smaller data words (often 32-bit words), and does not have as much
+memory as a mainframe. Computers of this type are used for business data
+processing, industrial control (an oil refinery, for example), and
+scientific research. Examples of this type of computer are the Digital
+Equipment Corp. VAX 11/730 and the Data General MV/8000 II.
+\bigskip
+
+\noindent{\bf Microcomputers}
+
+As the name implies, {\em microcomputers} are small computers. They
+range from small controllers that work directly with 4-bit words and can
+\ul{address} a few thousand bytes of memory to large units that work
+directly with 32-bit words and can address millions or billions of bytes
+of memory. Some of the more powerful microcomputers have all or most of
+the features of earlier minicomputers. Therefore, it has become very
+hard to draw a sharp line between these two types. One distinguishing
+feature of a microcomputer is that the CPU is usually a single
+\ul{integrated circuit} called a \ul{microprocessor}. Older books often
+used the terms microprocessor and microcomputer interchangeably, but
+actually the microprocessor is the \ul{CPU} to which you add \ul{ROM},
+\ul{RAM}, and ports to make a microcomputer. Microcomputers are used in
+everything from smart sewing machines to computer-aided design systems.
+Examples of microcomputers are the Intel 8051 single-chip controller;
+the SDK-86, a single-board computer design kit; the IBM Personal
+Computer (PC); and the Apple Macintosh computer.
+\bigskip
+
+\noindent{\large\bf Personal Computer}
+
+Combining the words personal and computer may give you the impression
+that personal computers are less \ul{sophisticated} than their larger
+mainframe and minicomputer relatives. This is a \ul{misconception}.
+Advances in technology have almost eliminated the gap that was formerly
+inherent in size. Personal computer systems are highly evolved
+descendants of earlier and larger computer systems.
+
+Because of this evolution, most organizations are on the \ul{threshold}
+of a new style of computing in which increasing amounts of computer
+resources are allocated to individual users in the form of personal
+computer systems. This new style of computing relies on the
+communication concepts to link groups of computers of different sizes
+and types so that components of a personal computer system.
+
+The basic hardware components of a personal computer system consist of
+\begin{shortitemize}
+    \item Keyboard
+    \item Display
+    \item System unit
+    \item Disk drives
+    \item Printer
+\end{shortitemize}
+
+These components perform similar functions in computers of all types and
+sizes. Familiarizing yourself with what they are and what they do will
+help you make the connection between computer concepts and \ul{tangible}
+hardware components.
+
+Personal computer software comes in many different varieties, and the
+applications number in the thousands, so it is useful to know how
+individual programs are categorized. The broadest classifications of
+software are system software and application software.
+
+System software includes
+\begin{shortitemize}
+    \item Operating systems
+    \item Programming languages
+\end{shortitemize}
+
+Application software includes
+\begin{shortitemize}
+    \item Special-purpose prgrams
+    \item General-purpose prgrams
+\end{shortitemize}
+
+Using a personal computer involves getting used to the conventions of
+the user interface and the operating system, and then developing an
+understanding of what a computer can do by becoming familiar with some
+of the application software for personal computers.
+
+\end{linenumbers*}
+
+\begin{flushright}
+(1300 words)\\
+From {\em Practical Microprocessor Interfacing} by S.~A.~Money
+\end{flushright}
+
+{\bf Tips:}\CJKtilde
+
+    \begin{center}
+    \tablefirsthead{}
+    \tablehead{}
+    \tabletail{}
+    \tablelasttail{}
+    \begin{supertabular}{p{6cm}lp{5cm}}
+    process & {\em v.} & 处理 \\
+    memory & {\em n.} & 存储器 \\
+    exponentiation & {\em n.} & 取幂 \\
+    minicomputer & {\em n.} & 小型计算机 \\
+    microcomputer & {\em n.} & 微型计算机 \\
+    terminal & {\em n.} & 终端 \\
+    tape drive & & 磁带机 \\
+    CRT (Cathode Ray Tube) & & 阴极射线管 \\
+    mainframe & {\em n.} & 大型计算机 \\
+    bit & {\em n.} & 位 \\
+    rack & {\em n.} & 机柜 \\
+    address & {\em v.} & 寻址 \\
+    integrated circuit & & 集成电路 \\
+    microprocessor & {\em n.} & 微处理器 \\
+    CPU (Central Processing Unit) & & 中央处理器 \\
+    ROM (Read Only Memory) & & 只读存储器 \\
+    RAM (Random Access Memory) & & 随机存取存储器 \\
+    sophisticated & {\em adj.} & 复杂的 \\
+    misconception & {\em n.} & 误解 \\
+    threshold & {\em n.} & 开始 \\
+    tangible &{\em adj.} & 有形的
+    \end{supertabular}
+    \end{center}
+
+\noindent{\bf Complete the following diagram and table with the
+information in the text.}
+
+\begin{center}
+\setlength{\unitlength}{4144sp}%
+\begin{picture}(4114,1644)(329,-983)
+\thinlines
+{\color[rgb]{0,0,0}\put(1016,449){\framebox(2570,200){A Personal
+Computer System}}
+}%
+{\color[rgb]{0,0,0}\put(651,-16){\framebox(970,180){Sofware}}
+}%
+{\color[rgb]{0,0,0}\put(481,-506){\framebox(410,190){\ref{lgk1}}}
+}%
+{\color[rgb]{0,0,0}\put(1341,-496){\framebox(395,170){\ref{lgk2}}}
+}%
+{\color[rgb]{0,0,0}\put(341,-966){\framebox(320,170){\ref{lgk3}}}
+}%
+{\color[rgb]{0,0,0}\put(741,-966){\framebox(325,170){\ref{lgk4}}}
+}%
+{\color[rgb]{0,0,0}\put(1186,-971){\framebox(320,175){\ref{lgk5}}}
+}%
+{\color[rgb]{0,0,0}\put(1621,-971){\framebox(325,170){\ref{lgk6}}}
+}%
+{\color[rgb]{0,0,0}\put(2946,-16){\framebox(985,175){Hardware}}
+}%
+{\color[rgb]{0,0,0}\put(2391,-501){\framebox(325,180){\ref{lgk7}}}
+}%
+{\color[rgb]{0,0,0}\put(2806,-506){\framebox(325,180){\ref{lgk8}}}
+}%
+{\color[rgb]{0,0,0}\put(3211,-501){\framebox(320,170){\ref{lgk9}}}
+}%
+{\color[rgb]{0,0,0}\put(3626,-506){\framebox(325,180){\ref{lgk10}}}
+}%
+{\color[rgb]{0,0,0}\put(4116,-506){\framebox(315,175){\ref{lgk11}}}
+}%
+{\color[rgb]{0,0,0}\put(1091,164){\line( 0, 1){110}}
+\put(1086,274){\line( 1, 0){2290}}
+\put(3376,274){\line( 0,-1){115}}
+}%
+{\color[rgb]{0,0,0}\put(2261,444){\line( 0,-1){170}}
+}%
+{\color[rgb]{0,0,0}\put(711,-311){\line( 0, 1){145}}
+\put(716,-166){\line( 1, 0){850}}
+\put(1566,-166){\line( 0,-1){150}}
+}%
+{\color[rgb]{0,0,0}\put(1091,-26){\line( 0,-1){140}}
+}%
+{\color[rgb]{0,0,0}\put(511,-791){\line( 0, 1){185}}
+\put(511,-606){\line( 1, 0){390}}
+\put(901,-606){\line( 0,-1){185}}
+}%
+{\color[rgb]{0,0,0}\put(711,-511){\line( 0,-1){ 95}}
+}%
+{\color[rgb]{0,0,0}\put(1361,-801){\line( 0, 1){195}}
+\put(1361,-606){\line( 1, 0){395}}
+\put(1756,-606){\line( 0,-1){190}}
+}%
+{\color[rgb]{0,0,0}\put(2586,-331){\line( 0, 1){165}}
+\put(2586,-166){\line( 1, 0){1695}}
+\put(4281,-166){\line( 0,-1){155}}
+}%
+{\color[rgb]{0,0,0}\put(2976,-176){\line( 0,-1){140}}
+}%
+{\color[rgb]{0,0,0}\put(3796,-181){\line( 0,-1){145}}
+}%
+{\color[rgb]{0,0,0}\put(3376,-21){\line( 0,-1){305}}
+}%
+{\color[rgb]{0,0,0}\put(1576,-511){\line( 0,-1){ 95}}
+}%
+\end{picture}%
+\bigskip
+
+\begin{tabular}{|rccc|}\hline
+Type & Size & Application & Example \\\hline
+Mainframe & \ref{lgk12} & \ref{lgk14} & \ref{lgk17} \\\hline
+Minicomputer & \ref{lgk13} & \ref{lgk15} & \ref{lgk18} \\\hline
+Microcomputer & Desktop & \ref{lgk16} & \ref{lgk19}\\\hline
+\end{tabular}
+\end{center}
+
+    \begin{question}\label{lgk1}
+	\blank{System software}
+    \end{question}
+    \begin{question}\label{lgk2}
+	\blank{Application software}
+    \end{question}
+    \begin{question}\label{lgk3}
+	\blank{Operating systems}
+    \end{question}
+    \begin{question}\label{lgk4}
+	\blank{Programming languages}
+    \end{question}
+    \begin{question}\label{lgk5}
+	\blank{Special-purpose programs}
+    \end{question}
+    \begin{question}\label{lgk6}
+	\blank{General-purpose programs}
+    \end{question}
+    \begin{question}\label{lgk7}
+	\blank{Keyboard}
+    \end{question}
+    \begin{question}\label{lgk8}
+	\blank{Display}
+    \end{question}
+    \begin{question}\label{lgk9}
+	\blank{System unit}
+    \end{question}
+    \begin{question}\label{lgk10}
+	\blank{Disk drives}
+    \end{question}
+    \begin{question}\label{lgk11}
+	\blank{Printer}
+    \end{question}
+    \begin{question}\label{lgk12}
+	\blank{Room-sized}
+    \end{question}
+    \begin{question}\label{lgk13}
+	\blank{Rack-sized or box-sized}
+    \end{question}
+    \begin{question}\label{lgk14}
+	\blank{Military defense control, business data processing, and
+	creating computer graphics displays for science fiction movies}
+    \end{question}
+    \begin{question}\label{lgk15}
+	\blank{Business data processing, industrial control, and
+	scientific research}
+    \end{question}
+    \begin{question}\label{lgk16}
+	\blank{Wide range of tasks, from smart sewing machines to
+	computer aided design system}
+    \end{question}
+    \begin{question}\label{lgk17}
+	\blank{IBM 4381; Honeywell DPS 8; CRAY XMP/48}
+    \end{question}
+    \begin{question}\label{lgk18}
+	\blank{DEC VAX 11/730 and Data General MV/8000 II}
+    \end{question}
+    \begin{question}\label{lgk19}
+	\blank{Intel 8051, SDK-86, IBM PC and Apple Macintosh}
+    \end{question}
+\end{fillin}
+
+\begin{shortanswer}[title={\bf Writting. (20 pts.)}]
+\noindent{\bf Directions: }{\em Study this diagram which explains the
+operation of liquid crystal displays. Link each set of statements
+using words or phrases of your own to make your own explanation. Be sure
+to divide your completed statements into two paragraphs: Paragraph 1
+will describe what an LCD is. Paragraph 2 will explain how it works. Omit
+unnecessary words and make any other changes required. Further, give
+your text a suitable title.}\bigskip
+    \begin{figure}[H]
+	\centering
+	\includegraphics{crystal.pdf}
+    \end{figure}
+    \begin{itemize}
+    \item A liquid crystal display (LCD) works like sunglasses.\\
+	  An LCD blocks light by polarization.
+    \item An LCD is a thin film of liquid.\\
+          It reacts to electrical charges.
+    \item It is placed in a glass sandwich.\\
+          The sandwich has a top layer of plain glass and a bottom layer
+	  of reflective glass.
+    \item Transparent electrical conductors separate the crystals into
+    segments.\\
+          The segments form each digit.
+    \item Any digit can be formed.\\
+          Up to seven segments are used.
+    \item The crystals are charged.\\
+          Their molecules are arranged in one way.
+    \item The crystals are not charged.\\
+          Their molecules are arranged in another way.
+    \item The conductors carry no charge.\\
+          Light is reflected out again.\\
+	  The display is blank.
+    \item The conductors are charged.\\
+          The molecules in the charged segments twist.\\
+	  They block light from the reflective surface.\\
+	  The appear black.
+    \item The charged surfaces appear as figures.
+    \end{itemize}
+    \begin{question}
+    \ding{45}
+    \examvspace*{6cm}
+	\begin{answer}
+	(评分标准)语言部分参考四六级作文评分标准。其它各项要求参考一般的
+	科技写作要求，规范与语言要求并重。例文如下：
+
+	A liquid crystal display (LCD) works like sunglasses {\em by}
+	block{\em ing} light by polarization.  An LCD is a thin film of
+	liquid {\em which} reacts to electrical charges. It is placed
+	between two sheets of glass, the bottom layer {\em of which} is
+	reflective glass. Transparent electrical conductors separate the
+	crystals into segments {\em which} form each digit. Any digit
+	can be formed {\em by using} up to seven segments.
+
+	{\em If} the crystals are charged, Their molecules are arranged
+	in one way. {\em If} They are not charged, Their molecules are
+	arranged in another way. {\em When} the conductors carry no
+	charge, light is reflected out again. {\em and so} the display
+	is blank. {\em When} the conductors are charged, the molecules
+	in the charged segments twist, blocking light from the
+	reflective surface and {\em appearing} black. {\em In this way},
+	the charged surfaces appear as figures.
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+\end{document}
+\end{CJK*}
