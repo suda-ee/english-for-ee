@@ -1,0 +1,563 @@
+\documentclass[a4paper,12pt]{exam}
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{soul,supertabular,shortlst}
+\usepackage[modulo]{lineno}
+\usepackage{mathrsfs,pifont}
+\usepackage{stmaryrd}
+\usepackage{amsmath}
+\usepackage[cdot,thinqspace]{SIunits}
+\usepackage[a4paper]{geometry}
+\usepackage{lastpage}
+\Fullpages
+\NumberOfVersions{1}
+\usepackage{CJK}
+\ifx\pdfoutput\undefined
+\usepackage[dvipdfm]{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{indentfirst}
+\usepackage{float}
+%\usepackage{floatflt}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+
+\def\Varangle#1{\kern.75pt\vtop{\hbox{\kern-.75pt$/{#1}$}\kern-.35pt\hrule}}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\CJKtilde
+%\CJKcaption{GB}
+\DeclareGraphicsExtensions{.pdf}
+%\renewcommand\figurename{图}
+\renewcommand\linenumberfont{\normalfont\scriptsize\sffamily}
+\nolinenumbers
+\newcommand\AnswerLeading{Answer}
+\SectionPrefix{Section \Roman{sectionindex}. \space}
+% \NoKey
+\NoRearrange
+\ConstantBlanks{3cm}
+\ContinuousNumbering
+\ShortKey
+\SectionFont{\large\bf}
+\examname{专业英语}
+\DefineAnswerWrapper{\begin{description}\item [\AnswerLeading:]}{\end{description}}
+\def\namedata{学号：\underline{\hspace{51pt}}\hspace{17pt}姓名：\underline{\hspace{51pt}}\hspace{17pt}成绩：\underline{\hspace{51pt}}}
+\class{院系：\underline{\hspace{51pt}}\hspace{17pt}年级：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}}
+\begin{examtop}
+\begin{center}
+\begin{tabular}{r}
+{\Large \bf苏州大学\underline{\examtype}课程试卷
+}\hspace{17pt}(\textsf{\Alph{version}})~卷\hspace{17pt}共~9~页\medskip\\
+考试形式\underline{开}卷\hspace{17pt}\number\year~年~\number\month~月
+\end{tabular}
+\\\bigskip
+\classdata\\ \namedata
+\end{center}
+\bigskip
+\end{examtop}
+\begin{keytop}
+\begin{center}
+{\bf\Large 苏州大学\underline{\examtype}课程}\hspace{17pt}(\textsf{\Alph{version}})~卷参考答案\hspace{17pt}共~\pageref{LastPage}~页\bigskip\\
+院系：\underline{\hspace{51pt}}\hspace{17pt}专业：\underline{\hspace{51pt}}
+\end{center}
+\bigskip
+\end{keytop}
+
+\begin{shortanswer}[title={English-Chinese Translation. (30 pts.)}]
+\noindent{\bf Directions: }{\em Read the following paragraphs and
+translate them into Chinese.}\bigskip
+
+\begin{linenumbers*}
+The work of Nyquist in the 1920s, was perhaps the next major conceptual
+contribution to the development of digital communications. Nyquist
+developed the relationship between the available channel bandwidth and
+the maximum pulse transmission rate that would support zero interpulse
+interference and laid the foundation for the celebrated sampling
+theorem: a frequency-limited signal can be represented by the values of
+the signal taken at regular intervals if the sampling interval is
+sufficiently short, that is, $T_{\rm samp}<(2B)^{-1}$, where $B$ is the
+signal's bandwidth. This result allows communication to be at least a
+discrete-time process and is at the heart of most modern digital
+communication systems, where signals such as speech are sampled,
+quantized, digitally transmitted, and reconstituted into continuous-time
+signals for the user.
+
+At about the same time, the seed for the modern view of information
+theory was planted by Hartley, who reasoned that information was related
+to the prior uncertainty about the message and that the amount of
+information contained was proportional to the logarithm of the number of
+possible messages. These ideas were not taken up again until the work of
+Shannon 20 years later.
+\end{linenumbers*}
+
+\begin{flushright}
+--From {\em History of Digital Communication}
+\end{flushright}
+    \begin{question}
+    \ding{45}\examvspace*{3cm}\examvspace*{5cm}\newpage\examvspace*{2cm}
+	\begin{answer}
+	{\em (参考译文，共五个长句，每句6分)}\\
+	1920 年代奈奎斯特的工作或许是对数字通信发展的又一个主要概念上的
+	贡献。奈奎斯特推导了可用的信道带宽和保证零脉冲间干扰的最大脉冲传
+	输速率间的关系，为著名的采样定理奠定了基础：一个频率有限的信号可
+	以用相同间隔获取的信号值来表示，只要采样间隔足够短，既，$T_{\rm
+	samp}<(2B)^{-1}$，这里~$B$ 是信号的带宽。这一结果使得通信至少可
+	以是一个离散时间过程，并且它(采样定理)在多数现代数字通信系统中处
+	于中心地位，在这些系统中，信号(比如语音)被采样、量化、以数字方式
+	传输然后再被重新组成连续时间信号给用户。
+
+	大约在同一时期，信息理论的现代概念由哈特利所萌生，他推理出信息
+	与消息的先验不确定性有关，且(消息)所包含的信息量与可能的消息数的
+	对数成正比。直到二十年后香农的工作这一思想才被继续下去。
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{shortanswer}[title={Chinese-English Translation. (20 pts.)}]
+\noindent{\bf Directions: }{\em translate the following sentences into
+English.}\bigskip
+    \begin{question}
+    信号通常是由相等时间间隔的采样产生，但这并不是进行采样的唯一方式。第二个最普通的采样方式就是空间等间隔(采样)。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+Signals are usually created by sampling at regular intervals of time. But this is not the only way sampling can take place. The second most common way of sampling is at equal intervals in space.
+	\end{answer}
+    \end{question}
+    \begin{question}
+    这项技术就是我们所熟知的脉冲编码调制，它在今天的语音、音乐、视频和遥感信号
+    的传输和存储中占据了中心位置。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+	This technique, known as pulse code modulation (PCM), occupies a
+	central place today in transmission and storage of speech,
+	music, visual and telementry signals.
+	\end{answer}
+    \end{question}
+    \begin{question}
+    除了通常的与有线局域网管理相关的任务之外(比如设备状况监控和通信负载)
+    ，无线局域网提出了另外的挑战，因为(它的)网络性能很大程度上依赖于(其
+    )物理层(也就是空间链路)易变且不可预料的特性。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+	In addition to the usual tasks associated with management of
+	wired LANs, such as monitoring equipment health and traffic
+	load, WLANs present additional challenges because network
+	performance is heavily dependent on variable and unpredictable
+	characteristics at the physical layer (i.e., the air link).
+	\end{answer}
+    \end{question}
+    \begin{question}
+    同样地，阶跃响应就是当输入是阶跃(信号)时的系统输出(也叫做边缘和边缘
+    响应)。\\
+    \ding{45}
+    \examvspace*{2cm}
+	\begin{answer}
+In this same manner, the step response is the output when the input is a step (also called an edge, and an edge response).
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+
+\begin{fillin}[title={Cloze.(15 pts.)}, examcolumns=2, keycolumns=2]
+\noindent{\bf Directions: }{\em Read the following passage carefully and
+then fill each blank with one suitable word or expression selected from
+the list.}\\
+\begin{tabular}{llll}
+energy & oscillator & theory & coil \\
+frequency & propagate & electromagnetic & gap \\
+oscillation & light & spark & electromagnetic field \\
+free space (自由空间) & & & \\
+\end{tabular}
+
+\begin{linenumbers*}
+
+In 1864, James Maxwell (麦克斯韦，1831-1879), a Scottish physicist,
+produced his theory of the \underline{\ref{fil1}\hspace{12pt}} which
+predicted that \underline{\ref{fil2}\hspace{12pt}} waves can
+\underline{\ref{fil3}\hspace{12pt}} in
+\underline{\ref{fil4}\hspace{12pt}} at a velocity (速度) equal to that
+of \underline{\ref{fil5}\hspace{12pt}} . Experimental confirmation of
+this \underline{\ref{fil6}\hspace{12pt}} had to wait until 1887 when
+Heinrich Hertz (赫兹，1857-1894) constructed the first high-frequency
+\underline{\ref{fil7}\hspace{12pt}}. When a voltage was induced in an
+induction coil connected across a spark gap, a discharge would occur
+across the \underline{\ref{fil8}\hspace{12pt}} setting up a damped
+sinusoidal (正弦的) high-frequency \underline{\ref{fil9}\hspace{12pt}}.
+The \underline{\ref{fil10}\hspace{12pt}} of the oscillation could be
+changed by varying the capacitance of the gap by connecting metal plates
+to it. The detector that he used consisted of a second coil connected to
+a much shorter \underline{\ref{fil11}\hspace{12pt}} gap. The observation
+of sparks across the detector gap when the induction coil was excited
+showed that the electromagnetic \underline{\ref{fil12}\hspace{12pt}} from
+the first coil was reaching the second
+\underline{\ref{fil13}\hspace{12pt}} through space.
+
+\end{linenumbers*}
+
+\begin{flushright}
+From Chapter 1 of {\em Telecommunication Circuit Design (Second
+Edition)}\\
+by Patrick D. van der Puije
+\end{flushright}
+    \begin{question}\label{fil1}
+	\blank{electromagnetic field}
+    \end{question}
+    \begin{question}\label{fil2}
+	\blank{electromagnetic}
+    \end{question}
+    \begin{question}\label{fil3}
+	\blank{propagate}
+    \end{question}
+    \begin{question}\label{fil4}
+	\blank{free space}
+    \end{question}
+    \begin{question}\label{fil5}
+	\blank{light}
+    \end{question}
+    \begin{question}\label{fil6}
+	\blank{theory}
+    \end{question}
+    \begin{question}\label{fil7}
+	\blank{oscillator}
+    \end{question}
+    \begin{question}\label{fil8}
+	\blank{gap}
+    \end{question}
+    \begin{question}\label{fil9}
+	\blank{oscillation}
+    \end{question}
+    \begin{question}\label{fil10}
+	\blank{frequency}
+    \end{question}
+    \begin{question}\label{fil11}
+	\blank{spark}
+    \end{question}
+    \begin{question}\label{fil12}
+	\blank{energy}
+    \end{question}
+    \begin{question}\label{fil13}
+	\blank{coil}
+    \end{question}
+\end{fillin}
+
+\begin{fillin}[title={Reading Comprehension.(20 pts.)}]
+\noindent{\bf Directions: }{\em Read the following passage and fill in
+the blanks of question \ref{lgkfi} to \ref{lgkla} with the information in
+the text.}\bigskip
+
+\begin{linenumbers*}
+
+\standardtilde
+\centerline{\Large\bf Memory Address Decoding}\bigskip
+
+A key part of any microcomputer system is the memory section which is
+normally external to the CPU itself. The memory is used to hold the
+program instructions which tell the CPU what to do and also holds the
+data which is being manipulated by the CPU. In this unit we shall look
+at the principles of some typical memory devices and see how these are
+interfaced to the CPU bus system.
+
+The memory itself consists of a large array of small storage cells each
+of which holds a single bit of information. Since binary logic is used
+each cell may therefore be set either at the 0 state or the 1 state. One
+form of memory cell is based upon D flip-flop circuit.
+
+By connecting a set of perhaps four or eight D flip-flops as shown in
+Fig.~7-1 with their clock inputs driven from a common line but with the
+D inputs from separate lines it is possible to latch or temporarily
+store the states of a number of data bits which make up a word of
+information. This combination of a group of flip-flops is refered to as
+a register and there are several registers of this type inside the CPU
+itself. Each flip-flop acts as a memory for a single bit of data and by
+building up a large array of these memory cells we can produce a memory
+system for storing data and program instructions.
+\begin{figure}
+\centering
+\includegraphics{fig1.png}
+\end{figure}
+
+Having produced a large array of memory cells it is usual to arrange
+these so that one selected cell from the array can be connected to the
+input and output data lines so that its state can be read out or a new
+data state written in. The process of selecting an individual cell is
+called addressing and for most memory devices the addressing scheme is
+arranged so that any one cell in the array can be selected at will. A
+memory with this type of addresing is called a random access memory or
+RAM.
+
+For a small memory with perhaps 16 cells it would be possible to have a
+separate \ul{select line} for each cell but for typical memories with
+thousands of individual cells this would be totally impractical.
+To simplify addressing of individual memory cells they are connected in
+an array of rows of and columns as shown in Fig.~7-2. Here all of the
+cells across a row are selected togeger and similarly all of the cells
+in a column are selected as a group. The data inputs for all of the
+cells are joined in parallel but the logic of each cell is arranged so
+that it is connected to the common data line only when both its row and
+column select inputs are activated. Data outputs and clock lines are
+commoned in a similar way. To select a cell one column line and one row
+line are activated and only one cell at the junction of the active
+column and row will be selected for a data transfer.
+\begin{figure}
+\centering
+\includegraphics{fig2.png}
+\end{figure}
+
+If we consider a 1024 cell memory array this would be arranged as 32
+rows and 32 columns giving a total of 64 row and column select inputs
+for addressing an individual cell. To reduce the address inputs still
+further the row and column select lines are encoded in binary form. Thus
+for the 32 row select lines we can use a 5 bit binary data word to
+specify which particular row is to be selected. With a further 5 bit
+code for the column selection this gives a 10 bit address input which
+will specify the particular cell in the array that is to be activated.
+Fig.~7-3 shows the basic arrangement of the addressing circuits for a
+typical 1024 bit RAM.
+\begin{figure}[H]
+\centering
+\includegraphics{fig3.png}
+\end{figure}
+
+Apart from the address inputs a memory cell will have data input and
+data output lines and various control lines as shown in Fig.~7-4. One
+control input determines whether new data is to be written into the
+selected cell. Reading data from a cell does not affect the data stored
+in a flip-flop type memory cell so only the write action needs to be
+\ul{switched}. This \ul{write control line} is usually labelled Write
+Enable or WE and in most types of device it is an active low input which
+selects the write mode only when the WE input is set at 0. Another
+control input is a \ul{CE} (Chip Enable) which allows the \ul{write
+logic} and the data output circuits to be either enabled or disabled.
+This is useful where several \ul{banks} of cells are used to provide a
+larger memory. Here the CE lines of individual memory chips are used as
+an extension to the address so that only one device in the group is
+active on the common data line when a data transfer is made. When the
+memory is in the \ul{real mode} if the CE line is at 1 the data output
+circuits are placed in the \ul{tri-state} mode and appear as an open
+circuit to the common data bus. In the \ul{write mode} data is not
+written into the selected cell unless the CE line is in the 0 state.
+\begin{figure}
+\centering
+\includegraphics{fig4.png}
+\end{figure}
+
+In some memory chips the input and output data lines share a common
+\ul{pin} and are automatically selected according to the state of the WE
+input. Normally if WE is at 1 the data line would be an output but the
+output driver stage is enabled only when the CE line is set at 0.
+
+In the $256\times 4$ bit RAM with bidirectional I/O buffers, when chip
+enable $\overline{\rm CE}$ is LOW and the READ/$\overline{\rm WRITE}$ line
+(R/$\overline{\rm W}$) is HIGH, gate 2's output is HIGH, so only the {\em
+output} buffers are enabled. This allows the addressed memory word to be
+{\em read} on the I/O lines. In this manner, several chips can have
+their outputs tied to the same data bus without interfering with one
+another, because only one chip will be using a given set of data lines
+at any one time.
+
+Two commonly used static RAM chips having a similar arrangement are the
+2112, which is a $256\times 4$ bit RAM, and the 2114, a $1024\times 4$
+bit RAM.
+\end{linenumbers*}
+
+\begin{flushright}
+(1040 words)\\
+From {\em Practical Microprocessor Interfacing} by S.~A.~Money
+\end{flushright}
+
+{\bf Tips:}\CJKtilde
+
+    \begin{center}
+    \tablefirsthead{}
+    \tablehead{}
+    \tabletail{}
+    \tablelasttail{}
+    \begin{supertabular}{p{6cm}lp{5cm}}
+    select line &  & 选择线 \\
+    junction & {\em n.} & 交接处 \\
+    switch & {\em v.} & 改变 \\
+    write control line &  & 写控制线 \\
+    CE &  & 片选信号 \\
+    write logic &  & 写逻辑 \\
+    bank & {\em n.} & 存储体，集，库 \\
+    read mode & & 读状态 \\
+    tri-state & {\em adj.} & 三态的 \\
+    write mode &  & 写状态 \\
+    pin & {\em n.} & 引脚 
+    \end{supertabular}
+    \end{center}
+
+\noindent{\bf \ding{228} Complete the following sentences with the information in
+the text.}
+
+    \begin{question}\label{lgkfi}
+	A key part of any microcomputer system is the \blank{memory} section
+	which is external to the CPU itself.
+    \end{question}
+    \begin{question}
+	The memory consists of a large array of small \blank{storage
+	cells} each of which holds a single bit of information.
+    \end{question}
+    \begin{question}
+	Since \blank{binary logic} is used each cell may therefore be
+	set either at the 0 state or the 1 state.
+    \end{question}
+    \begin{question}
+	The combination of a group of \blank{flip-flops} is referred to as a
+	register.
+    \end{question}
+    \begin{question}
+	The process of selecting an individual cell is called
+	\blank{addressing}.
+    \end{question}
+    \begin{question}
+	To select a cell one \blank{column} line and one row line are
+	activated.
+    \end{question}
+    \begin{question}
+	Apart from the address inputs a memory cell will have data
+	\blank{I/O} lines and various control lines.
+    \end{question}
+    \begin{question}
+	A CE (Chip Enable) allows the \blank{data output} circuits to be either
+	enabled or disabled.
+    \end{question}
+    \begin{question}
+	In the write mode data is not written into the selected cell
+	unless the CE line is in the \blank{0} state.
+    \end{question}
+    \begin{question}
+	A small memory with about 16 cells is likely to have a separate
+	\blank{select line} for each cell.
+    \end{question}
+    \begin{question}
+	The memory is used to hold the \blank{program instructions} which tell the CPU what
+	to do.
+    \end{question}
+    \begin{question}
+	By connecting a set of four or eight \blank{D flip-flops} with
+	their \blank{clock inputs} driven from a common line but with
+	the \blank{D inputs} from separate lines it is possible to
+	latch or store the states of a number of data bits which make up
+	a word of information.
+    \end{question}
+    \begin{question}
+	To reduce the address inputs still further the row and column
+	select lines are encoded in \blank{binary form}.
+    \end{question}
+    \begin{question}
+	For the 32 row select lines we can use a \blank{5 bit} binary data
+	word to specify which particular row is to be selected.
+    \end{question}
+    \begin{question}
+	\blank{Reading data} from a cell does not affect the data stored in a
+	flip-flop type memory cell so only the write action needs to be
+	switched.
+    \end{question}
+    \begin{question}
+	The write control line is usually labelled \blank{Write Enable}
+	and in most types of device it is an active low input.
+    \end{question}
+    \begin{question}
+	When the memory is in the \blank{read mode} if the CE line is at
+	\blank{1} the data output circuits are placed in the tri-state
+	mode.
+    \end{question}
+    \begin{question}
+	If WE is at 1 the data line would be an output but the output
+	driver stage is enabled only when the CE line is set at
+	\blank{0}.
+    \end{question}
+    \begin{question}
+	In some memory chips the input and output data lines share a
+	common \blank{pin} and are selected according to the state of the
+	WE input.
+    \end{question}
+    \begin{question}\label{lgkla}
+	The individual cells are connected in an array of rows and
+	\blank{columns} to be addressed simply.
+    \end{question}
+\end{fillin}
+
+\begin{shortanswer}[title={\bf Writting. (15 pts.)}]
+\noindent{\bf Directions: }{\em With the aid of the diagrams, link each
+set of statements, using words or phrases of your own to make an
+explanation of how a television picture is composed. Make sure to divide
+your completed statements into two paragraphs. Omit unnecessary
+words and make any other changes required. Further, give your text a
+suitable title.}\bigskip
+    \begin{figure}[H]
+	\centering
+	\includegraphics{tvpic.pdf}\includegraphics{tvsig.pdf}
+    \end{figure}
+    \begin{itemize}
+    \item A television picture is build up gradually.\\
+          This is done by a moving spot.
+    \item The spot strikes the television screen.\\
+          The phosphor coating on the screen emits light.\\
+	  The light varies in brightness according to the intensity of
+	  the original image.
+    \item The spot reaches the right side of the screen.\\
+          The spot is blanked.\\
+	  The spot is moved rapidly back to the left side in a movement
+	  called flyback.
+    \item The present European system sweeps the screen in a series
+          of lines.\\
+	  There are 625 closely-spaced lines.\\
+	  Using 625 lines ensures a good quality picture.
+    \item The movement across the screen is controlled by the line scan
+          signal.\\
+	  The movement down the screen is controlled by the field scan
+	  signal.
+    \item The scan rate must be greater than 40Hz.\\
+          A lower scan rate would cause the screen to flicker.
+    \item Sync pulses are added to the video signal.\\
+          The sync pulses ensure that the TV camera and TV receiver
+	  start a new line and frame at the same time.
+    \item The build-up of the screen happens so quickly.\\
+          The eye sees only a complete picture.
+    \end{itemize}
+    \begin{question}
+    \ding{45}
+    \examvspace*{6cm}
+	\begin{answer}
+	(评分标准)语言部分参考四六级作文评分标准。其它各项要求参考一般的
+	科技写作要求，规范与语言要求并重。例文如下：
+
+    A television picture is build up gradually {\em by} a moving spot.
+    {\em When} the spot strikes the television screen, the phosphor
+    coating emits light, {\em which} varies in brightness according to
+    the intensity of the original image. {\em When} the spot reaches the
+    right side of the screen, it is blanked {\em and} moved rapidly back
+    to the left side in a movement called flyback. The present European
+    system sweeps the screen in a series of 625 closely-spaced lines
+    {\em to} ensures a good quality picture.
+
+    The movement across the screen is controlled by the line scan
+    signal, {\em whereas} the movement down the screen is controlled by
+    the field scan signal. The scan rate must be greater than 40Hz {\em
+    because} a lower scan rate would cause the screen to flicker. Sync
+    pulses are added to the video signal to ensure that the TV camera
+    and TV receiver start a new line and frame at the same time. The
+    build-up of the screen happens so quickly that the eye sees only a
+    complete picture.
+	\end{answer}
+    \end{question}
+\end{shortanswer}
+\end{document}
+\end{CJK*}
